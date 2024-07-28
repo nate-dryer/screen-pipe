@@ -1,4 +1,3 @@
-
 <p align="center">
     <img src="https://github.com/louis030195/screen-pipe/assets/25003283/289bbee7-79bb-4251-9516-878a1c40dcd0" width="200"/>
 </p>
@@ -427,3 +426,32 @@ Contributions are welcome! If you'd like to contribute, please read [CONTRIBUTIN
     - etc.
     - We're constantly exploring new use cases and welcome community input!
 </details>
+
+## Viewing Data with TablePlus
+
+To view your data using TablePlus, follow these steps:
+
+1. **Download and Install TablePlus**:
+   - Visit the [official TablePlus website](https://tableplus.com/) and download the application for your operating system.
+   - Follow the installation instructions provided on the website.
+
+2. **Open TablePlus**:
+   - Launch the TablePlus application.
+
+3. **Create a New Connection**:
+   - Click on the "Create a new connection" button or use the shortcut `Cmd + N` (Mac) or `Ctrl + N` (Windows).
+   - Select "SQLite" from the list of available database types.
+
+4. **Configure the Connection**:
+   - In the connection configuration window, set the following:
+     - **Name**: Give your connection a name (e.g., "ScreenPipe Data").
+     - **Path**: Click on the "..." button to browse and select the `db.sqlite` file located in the `.screenpipe` directory in your home folder.
+
+5. **Connect to the Database**:
+   - Click on the "Connect" button to establish the connection to your SQLite database.
+
+6. **View and Query Data**:
+   - Once connected, you can view the tables and data stored in the database.
+   - Use the query editor to run SQL queries and explore your data.
+
+By following these steps, you can easily view and query the data collected by ScreenPipe using TablePlus.
